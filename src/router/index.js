@@ -23,6 +23,26 @@ const routes = [
     name: 'ghost',
     component: () => import('../views/ghost.vue')
   },
+  {
+    path: '/wave',
+    name: 'wave',
+    component: () => import('../views/wave.vue')
+  },
+  {
+    path: '/extend',
+    name: 'extend',
+    component: () => import('../views/extend.vue')
+  },
+  {
+    path: '/canvas1',
+    name: 'canvas1',
+    component: () => import('../views/canvas1.vue')
+  },
+  {
+    path: '/zdog',
+    name: 'zdog',
+    component: () => import('../views/Zdog.vue')
+  },
 ]
 
 const router = new VueRouter({
